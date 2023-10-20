@@ -352,6 +352,9 @@ nav, #playlists,#install{
     #thumbnailDiv2 #gHeart{
         display: none;
     }
+    #thumbnailDiv2 div > *:not(#thumbnail) {
+        display: none;
+      }
 }
 
 
