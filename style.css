@@ -199,6 +199,7 @@ nav, #playlists,#install{
     background-color: #181818;
     z-index: 3;
     justify-content: space-around;
+    align-items: center;
 }
 
 #currentSong{
