@@ -42,7 +42,7 @@ img:hover{
     left: 0;
     background-color: #000000;
     padding: 1.5rem;
-    z-index: 2;
+    z-index: 3;
 }
 
 #logo{
@@ -185,7 +185,7 @@ nav, #playlists,#install{
     width: 100vw;
     height: 12vh;
     background-color: #181818;
-    z-index: 3;
+    z-index: 4;
 }
 
 #currentSong2{
@@ -197,7 +197,7 @@ nav, #playlists,#install{
     width: 100%;
     height: 12vh;
     background-color: #181818;
-    z-index: 3;
+    z-index: 4;
     justify-content: space-around;
     align-items: center;
 }
@@ -257,6 +257,14 @@ nav, #playlists,#install{
     height: 3vh;
 }
 
+#out{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
 @media (max-width: 1600px) {
     #currentSong2{
         display: none;
@@ -323,6 +331,9 @@ nav, #playlists,#install{
         font-size: 1.4rem;
         overflow-y: scroll;
         display: none;
+    }
+    #navigationSection.navSec{
+        display: inline;
     }
     .toggle-button{
         display: flex;
