@@ -193,12 +193,12 @@ nav, #playlists,#install{
     bottom: 0;
     display: flex;
     flex-direction: row;
-    padding: 1rem 3rem;
+    padding: 1rem 0.5rem;
     width: 100%;
     height: 12vh;
     background-color: #181818;
     z-index: 3;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #currentSong{
@@ -329,9 +329,6 @@ nav, #playlists,#install{
     #arrows{
         display: none;
     }
-    #controls{
-        width: 50vw;
-    }  
 }
 
 @media (max-width: 731px){
@@ -352,9 +349,12 @@ nav, #playlists,#install{
     #thumbnailDiv2 #gHeart{
         display: none;
     }
-    #thumbnailDiv2 div > *:not(#thumbnail) {
+    #thumbnailDiv2 p {
         display: none;
-      }
+    }
+    #controls{
+        height: 4vh;
+    }
 }
 
 
