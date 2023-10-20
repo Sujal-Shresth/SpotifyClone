@@ -329,7 +329,9 @@ nav, #playlists,#install{
     #arrows{
         display: none;
     }
-        
+    #controls{
+        width: 50vw;
+    }  
 }
 
 @media (max-width: 731px){
